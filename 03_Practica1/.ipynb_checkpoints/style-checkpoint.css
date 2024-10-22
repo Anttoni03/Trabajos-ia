@@ -1,0 +1,98 @@
+:root {
+    /* Colors principals */
+    --principal: #cd1f36;
+    --principalFosc: #723640;
+    --fosc: #26373D;
+    --secundari: #388BAA;
+    --terciari : #C79B27;
+    --clar : #FDF0DC;
+
+    /* Font principal */
+    --main-font: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--fosc);
+    text-align: justify;
+}
+
+h1 {
+    color: var(--principal);
+}
+
+h2 {
+    color: var(--secundari);
+}
+
+h3 {
+    color: var(--terciari);
+}
+
+p {
+    font-family: var(--main-font);
+    color: var(--fosc);
+    text-align: justify;
+}
+
+li {
+    font-family: var(--main-font);
+    color: var(--fosc);
+    text-align: justify;
+}
+
+code {
+    color: var(--fosc);
+}
+
+em {
+    color: var(--principalFosc);
+}
+
+strong {
+    color: var(--principalFosc);
+}
+
+.title {
+    font-size: 4.5rem;
+}
+
+.sub-title {
+    font-size: 2.5rem;
+}
+
+.nota {
+    border: 2px solid var(--principal);
+    padding: 0.3rem;
+}
+
+.border {
+    border: 2px solid var(--principal);
+}
+
+.margenes {
+    margin: 0px 40px;
+}
+
+.texto-imagen {
+    margin-right: 600px;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 50px 0;
+    /*margin: 2em 0;*/
+    /*justify-items: 'center';*/
+}
+
+th, td {
+    padding: 2em;
+    text-align: center;
+    border-bottom: 5px solid #ddd;
+    color: var(--fosc);
+  }
+
+th {
+    background-color: var(--clar);
+}
