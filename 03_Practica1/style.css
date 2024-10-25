@@ -29,6 +29,10 @@ h3 {
     color: var(--terciari);
 }
 
+h4 {
+    color: var(--principalFosc);
+}
+
 p {
     font-family: var(--main-font);
     color: var(--fosc);
@@ -52,6 +56,12 @@ em {
 
 strong {
     color: var(--principalFosc);
+}
+
+.pending {
+    color: red;
+    font-weight: bold;
+    background-color: green;
 }
 
 .title {
