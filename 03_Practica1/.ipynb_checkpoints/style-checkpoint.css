@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root {
     /* Colors principals */
     --principal: #cd1f36;
@@ -8,7 +10,7 @@
     --clar : #FDF0DC;
 
     /* Font principal */
-    --main-font: "Inter", sans-serif;
+    --main-font: 'Inter', sans-serif;
 }
 
 body {
@@ -18,18 +20,22 @@ body {
 }
 
 h1 {
+    font-family: var(--main-font);
     color: var(--principal);
 }
 
 h2 {
+    font-family: var(--main-font);
     color: var(--secundari);
 }
 
 h3 {
+    font-family: var(--main-font);
     color: var(--terciari);
 }
 
 h4 {
+    font-family: var(--main-font);
     color: var(--principalFosc);
 }
 
@@ -66,11 +72,18 @@ strong {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .sub-title {
     font-size: 2.5rem;
+    text-align: center;
+}
+
+.subsub-title {
+    text-align: center;
 }
 
 .nota {
