@@ -1,0 +1,24 @@
+
+<annotation>
+    <folder>images</folder>
+    <filename>rudy.png</filename>
+    <size>
+        <width>1500</width>
+        <height>2000</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>dog</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>700</xmin>
+            <ymin>850</ymin>
+            <xmax>1300</xmax>
+            <ymax>1300</ymax>
+        </bndbox>
+    </object>
+</annotation>

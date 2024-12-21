@@ -93,6 +93,7 @@ strong {
 
 .border {
     border: 2px solid var(--principal);
+    margin-left: 20px;
 }
 
 .margenes {
@@ -120,4 +121,9 @@ th, td {
 
 th {
     background-color: var(--clar);
+}
+
+a {
+    color: var(--principalFosc);
+    font-style: italic;
 }
