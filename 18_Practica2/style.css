@@ -11,6 +11,7 @@
 
     /* Font principal */
     --main-font: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 body {
